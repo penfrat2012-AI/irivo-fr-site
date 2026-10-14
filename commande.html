@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commander — Bailliko / Patrimoine Pilote | IRIVO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="legal">
+<p><a href="index.html" data-irivopage="index.html">← Retour au portail IRIVO</a></p>
+<h1>Commander votre licence IRIVO</h1>
+<p class="maj">Abonnement annuel renouvelé automatiquement, résiliable à tout moment. Paiement sécurisé par carte bancaire via Stripe.</p>
+
+<div id="aidBox" hidden style="border:2px solid #2e7d32;border-radius:14px;background:#e8f5e9;padding:16px 18px;margin:18px 0">
+<h3 style="margin:0 0 6px;color:#1b5e20;">✅ Votre identifiant appareil est détecté (<span id="aidAppName">Application IRIVO</span>)</h3>
+<p><strong id="aidValue" style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:17px;color:#01579b;"></strong></p>
+<p style="font-size:13px;color:#263238;margin:6px 0 0">Il est automatiquement transmis à Stripe avec votre paiement (paramètre <code>client_reference_id</code>). Dès le paiement validé, votre licence s'active automatiquement sur votre téléphone.</p>
+</div>
+
+<h2>Comment ça marche</h2>
+<p><strong>1.</strong> Choisissez votre formule ci-dessous et payez par carte bancaire (page sécurisée Stripe) — abonnement annuel.<br>
+<strong>2.</strong> Depuis votre application Android IRIVO, appuyez sur <em>S’abonner</em> (Paramètres → Abonnement) : votre <strong>identifiant appareil</strong> est transmis automatiquement à Stripe, rien à recopier.<br>
+<strong>3.</strong> Rouvrez l'application : votre licence <strong>s'active automatiquement</strong>.</p>
+<p>Résiliable à tout moment depuis votre <a href="https://billing.stripe.com/p/login/6oU28rd5H0m96ZN2Q82Nq00">espace client Stripe</a> — accès conservé jusqu'à la fin de la période payée.</p>
+
+
+<div style="margin: 28px 0 18px;" data-app-prefix="BK">
+  <h2 style="text-align:left; font-size:22px; margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+    <span>🏠</span>
+    <span>Licence Bailliko</span>
+    
+  </h2>
+  <div class="tarifs">
+    
+<div class="tarif ">
+
+<h3>Bailliko — Solo</h3>
+<div class="prix">59 €<span> /an</span></div>
+<ul><li>✅ Jusqu'à 3 biens</li><li>✅ Toutes fonctions</li><li>✅ Mises à jour incluses</li></ul>
+<a class="btn" href="https://buy.stripe.com/6oUdR93v70m983R0I02Nq01">Payer 59 €</a>
+</div>
+
+<div class="tarif top">
+<div class="etiquette">ILLIMITÉ</div>
+<h3>Bailliko — Pro</h3>
+<div class="prix">119 €<span> /an</span></div>
+<ul><li>✅ Biens illimités</li><li>✅ Toutes fonctions</li><li>✅ Export Excel/CSV</li></ul>
+<a class="btn" href="https://buy.stripe.com/5kQ8wPd5H0m96ZN2Q82Nq02">Payer 119 €</a>
+</div>
+  </div>
+</div>
+
+<div style="margin: 28px 0 18px;" data-app-prefix="PP">
+  <h2 style="text-align:left; font-size:22px; margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+    <span>📊</span>
+    <span>Licence Patrimoine Pilote</span>
+    
+  </h2>
+  <div class="tarifs">
+    
+<div class="tarif top">
+<div class="etiquette">LE PACK IRIVO</div>
+<h3>Patrimoine Pilote — Pack IRIVO (Bailliko + Patrimoine Pilote)</h3>
+<div class="prix">89 €<span> /an</span></div>
+<ul><li>✅ Bailliko + Patrimoine Pilote</li><li>✅ Toutes fonctions</li><li>✅ Mises à jour incluses</li></ul>
+<a class="btn" href="https://buy.stripe.com/8x2cN5c1Dc4R5VJeyQ2Nq04">Payer 89 €</a>
+</div>
+  </div>
+</div>
+
+<h2>Paiement sécurisé</h2>
+<p>Le paiement est traité par <strong>Stripe</strong>, leader mondial du paiement en ligne. IRIVO ne voit ni ne stocke vos coordonnées bancaires. Facture envoyée par email après paiement.</p>
+
+<h2>Une question ?</h2>
+<p>Écrivez-nous à <a href="mailto:contact@irivo.fr">contact@irivo.fr</a>, réponse sous 48 h ouvrées. Voir aussi nos <a href="cgv.html">CGV</a>.</p>
+</div>
+<script>
+/* Reconnaissance automatique des identifiants appareils de toutes les applications IRIVO
+   (ex: ?aid=PP-XXXXXXXXXXXXXXXX, ?aid=BK-XXXXXXXXXXXXXXXX, ?aid=CH-XXXXXXXXXXXXXXXX, ?aid=BT-XXXXXXXXXXXXXXXX)
+   et injection automatique dans client_reference_id sur tous les liens Stripe. */
+(function(){
+  var appPrefixes = {"BK":"Bailliko","PP":"Patrimoine Pilote","CH":"IRIVO Chantier","BT":"IRIVO Bâtiment"};
+  var searchStr = location.search || "";
+  var m = /[?&]aid=([A-Z]{2,4}-[0-9A-F]{8,20})/i.exec(searchStr);
+  if(!m) return;
+  var aid = m[1].toUpperCase();
+  var prefix = aid.split('-')[0];
+  var box = document.getElementById('aidBox');
+  if(box){
+    box.hidden = false;
+    document.getElementById('aidValue').textContent = aid;
+    var nameEl = document.getElementById('aidAppName');
+    if(nameEl && appPrefixes[prefix]) nameEl.textContent = appPrefixes[prefix];
+  }
+  var links = document.querySelectorAll('a[href^="https://buy.stripe.com/"]');
+  for(var i=0; i<links.length; i++){
+    var h = links[i].getAttribute('href');
+    if(h.indexOf('client_reference_id') >= 0) continue;
+    links[i].setAttribute('href', h + (h.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(aid));
+  }
+})();
+</script>
+
+</body>
+</html>
