@@ -1,0 +1,362 @@
+{
+  "siteSettings": {
+    "brandName": "IRIVO Éditions",
+    "tagline": "Des applications utiles, simples, qui respectent vos données.",
+    "contactEmail": "contact@irivo.fr",
+    "stripePortalUrl": "https://billing.stripe.com/p/login/6oU28rd5H0m96ZN2Q82Nq00",
+    "instagramUrl": "https://www.instagram.com/irivo2026/",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61595335291716",
+    "packHighlightText": "Les deux applications en pack : 89 €/an",
+    "packHighlightHref": "patrimoine-pilote.html#tarifs",
+    "packStripeUrl": "https://buy.stripe.com/8x2cN5c1Dc4R5VJeyQ2Nq04",
+    "packPrice": "89 €"
+  },
+  "apps": [
+    {
+      "id": "bailliko",
+      "name": "Bailliko",
+      "slug": "bailliko",
+      "status": "disponible",
+      "aidPrefix": "BK",
+      "iconKey": "bailliko",
+      "iconPath": "bailliko/icone-bailliko.png",
+      "iconEmoji": "🏠",
+      "shortDesc": "Gestion locative pour bailleurs : loyers, quittances, baux, IRL, 2044 & SCI.",
+      "heroSubtitle": "La gestion locative simple pour bailleurs : loyers, quittances, baux, fiscalité — tout dans votre poche, sans comptable.",
+      "apkDownloadUrl": "compteur.php?dl=1",
+      "apkFileName": "Bailliko.apk",
+      "trialDays": 15,
+      "featuresTitle": "Tout pour gérer vos locations",
+      "featuresSubtitle": "Pensé par un bailleur, pour les bailleurs.",
+      "features": [
+        {
+          "ico": "🧾",
+          "title": "Loyers & quittances",
+          "desc": "Suivi des paiements, quittances PDF automatiques, relances d'impayés en un clic."
+        },
+        {
+          "ico": "📄",
+          "title": "Baux & états des lieux",
+          "desc": "Contrats conformes, EDL avec photos, signatures électroniques bailleur et locataire."
+        },
+        {
+          "ico": "📈",
+          "title": "Révision IRL",
+          "desc": "Alertes avant chaque date anniversaire, calcul automatique, courrier prêt à envoyer."
+        },
+        {
+          "ico": "💰",
+          "title": "Fiscalité 2044 & SCI",
+          "desc": "Revenus fonciers ventilés par bien, régimes privé, SCI à l'IR et SCI à l'IS."
+        },
+        {
+          "ico": "🏦",
+          "title": "Rapprochement bancaire",
+          "desc": "Importez vos relevés : les loyers sont pointés automatiquement."
+        },
+        {
+          "ico": "🔒",
+          "title": "Vos données chez vous",
+          "desc": "Tout est stocké sur votre téléphone, chiffré. Aucun serveur, aucune revente."
+        }
+      ],
+      "plans": [
+        {
+          "id": "bailliko-solo",
+          "name": "Solo",
+          "price": "59 €",
+          "period": "/an",
+          "badge": "",
+          "isTop": false,
+          "bullets": [
+            "Jusqu'à 3 biens",
+            "Toutes fonctions",
+            "Mises à jour incluses"
+          ],
+          "stripeUrl": "https://buy.stripe.com/6oUdR93v70m983R0I02Nq01",
+          "showOnCommande": true
+        },
+        {
+          "id": "bailliko-pro",
+          "name": "Pro",
+          "price": "119 €",
+          "period": "/an",
+          "badge": "ILLIMITÉ",
+          "isTop": true,
+          "bullets": [
+            "Biens illimités",
+            "Toutes fonctions",
+            "Export Excel/CSV"
+          ],
+          "stripeUrl": "https://buy.stripe.com/5kQ8wPd5H0m96ZN2Q82Nq02",
+          "showOnCommande": true
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Comment installer l'application ?",
+          "a": "Téléchargez Bailliko.apk depuis cette page, ouvrez le fichier et autorisez « Installer depuis cette source » quand Android le demande. L'application est signée par IRIVO. Bientôt aussi sur Google Play."
+        },
+        {
+          "q": "Faut-il une carte bancaire pour l'essai ?",
+          "a": "Non. L'essai de 15 jours est libre et sans engagement. À la fin de l'essai, abonnez-vous en direct sur ce site ou via Google Play."
+        },
+        {
+          "q": "Mes données sont-elles en sécurité ?",
+          "a": "Oui : tout est stocké localement sur votre téléphone et chiffré. IRIVO n'héberge aucune de vos données."
+        },
+        {
+          "q": "L'app convient-elle aux SCI ?",
+          "a": "Oui : chaque bien peut être déclaré en privé, SCI à l'IR ou SCI à l'IS, avec une fiscalité adaptée (2044, 2072, résultat IS simplifié)."
+        }
+      ]
+    },
+    {
+      "id": "patrimoine-pilote",
+      "name": "Patrimoine Pilote",
+      "slug": "patrimoine-pilote",
+      "status": "disponible",
+      "aidPrefix": "PP",
+      "iconKey": "patrimoine",
+      "iconPath": "icone-patrimoine-pilote.png",
+      "iconEmoji": "📊",
+      "shortDesc": "Gestion de patrimoine : simulation d'achat immo avec impact fiscal, calcul IFI et reprise de vos biens Bailliko.",
+      "heroSubtitle": "Un achat immobilier se joue sur trois chiffres : la mensualité, l'impôt et le patrimoine. Cette application vous les montre tous, avant de signer — avec la reprise de vos biens loués depuis Bailliko.",
+      "apkDownloadUrl": "compteur.php?dl=2",
+      "apkFileName": "Patrimoine-Pilote.apk",
+      "trialDays": 15,
+      "featuresTitle": "Tout pour décider en connaissance de cause",
+      "featuresSubtitle": "Pensé pour un premier achat comme pour un investissement locatif.",
+      "features": [
+        {
+          "ico": "🧮",
+          "title": "Simulation d'achat",
+          "desc": "Prix, travaux, frais d'acquisition, apport, taux, assurance, durée : mensualité, coût du crédit et taux d'effort, sans zone d'ombre."
+        },
+        {
+          "ico": "⚖️",
+          "title": "Comparer",
+          "desc": "15, 20 ou 25 ans côte à côte : mensualité, coût total, effort. Vos scénarios sont conservés et comparés."
+        },
+        {
+          "ico": "📉",
+          "title": "Amortissement",
+          "desc": "Le tableau année par année : capital remboursé, intérêts, assurance, capital restant. Export CSV."
+        },
+        {
+          "ico": "🏠",
+          "title": "Rentabilité locative",
+          "desc": "Loyers après vacance, charges, taxe foncière, solde mensuel, comparaison micro-foncier / régime réel et LMNP."
+        },
+        {
+          "ico": "🧾",
+          "title": "Fiscalité sans projet & IFI",
+          "desc": "Impôt sur le revenu, prélèvements sociaux et repère IFI calculés hors projet, puis avec le projet."
+        },
+        {
+          "ico": "🔒",
+          "title": "Vos données chez vous",
+          "desc": "Tout est stocké sur votre téléphone. Aucun compte, aucun serveur, aucune revente. Export PDF de vos bilans."
+        }
+      ],
+      "plans": [
+        {
+          "id": "pack-irivo",
+          "name": "Pack IRIVO (Bailliko + Patrimoine Pilote)",
+          "price": "89 €",
+          "period": "/an",
+          "badge": "LE PACK IRIVO",
+          "isTop": true,
+          "bullets": [
+            "Bailliko + Patrimoine Pilote",
+            "Toutes fonctions",
+            "Mises à jour incluses"
+          ],
+          "stripeUrl": "https://buy.stripe.com/8x2cN5c1Dc4R5VJeyQ2Nq04",
+          "showOnCommande": true
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Faut-il une carte bancaire pour l'essai ?",
+          "a": "Non. L'essai de 15 jours est libre, complet et sans engagement. À la fin de l'essai, abonnez-vous depuis ce site."
+        },
+        {
+          "q": "Quelle différence avec Bailliko ?",
+          "a": "Bailliko gère vos locations au quotidien : loyers, quittances, baux, révision IRL, 2044 et SCI. Patrimoine Pilote regarde avant et autour : simuler un achat, comparer les financements, mesurer l'impact fiscal et l'IFI, et projeter votre patrimoine."
+        },
+        {
+          "q": "Puis-je reprendre mes biens depuis Bailliko ?",
+          "a": "Oui. Depuis Bailliko, touchez Exporter puis choisissez Patrimoine Pilote dans la liste « Ouvrir avec »."
+        }
+      ]
+    },
+    {
+      "id": "irivo-chantier",
+      "name": "IRIVO Chantier",
+      "slug": "irivo-chantier",
+      "status": "bientot",
+      "aidPrefix": "CH",
+      "iconKey": "",
+      "iconPath": "",
+      "iconEmoji": "🏗️",
+      "shortDesc": "Gestion de chantier : budget, paiement des factures, réserves. Pour particuliers et artisans.",
+      "heroSubtitle": "Suivez votre chantier de A à Z : budget prévisionnel, avancement des devis, paiement des factures et levée des réserves avec photos sur votre téléphone.",
+      "apkDownloadUrl": "compteur.php?dl=3",
+      "apkFileName": "IRIVO-Chantier.apk",
+      "trialDays": 15,
+      "featuresTitle": "Votre chantier maîtrisé, sans dépassement",
+      "featuresSubtitle": "Pour les particuliers en rénovation ou construction et les artisans.",
+      "features": [
+        {
+          "ico": "📐",
+          "title": "Budget & Devis",
+          "desc": "Suivi poste par poste des devis signés, avenants et reste à engager en temps réel."
+        },
+        {
+          "ico": "🧾",
+          "title": "Paiement des factures",
+          "desc": "Pointage des acomptes, situations de travaux et historique complet des règlements."
+        },
+        {
+          "ico": "📸",
+          "title": "Réserves & Photos",
+          "desc": "Relevé des réserves par pièce ou par lot avec photos annotées et suivi de levée."
+        },
+        {
+          "ico": "📑",
+          "title": "Procès-verbal PDF",
+          "desc": "Génération immédiate des comptes-rendus et listes de réserves en PDF prêts à envoyer."
+        },
+        {
+          "ico": "👷",
+          "title": "Carnet d'intervenants",
+          "desc": "Coordonnées des artisans, attestations décennales et suivi par corps d'état."
+        },
+        {
+          "ico": "🔒",
+          "title": "Vos données chez vous",
+          "desc": "Fonctionne hors-ligne sur chantier. Tout est stocké sur votre téléphone, sans serveur."
+        }
+      ],
+      "plans": [
+        {
+          "id": "chantier-solo",
+          "name": "Chantier Solo",
+          "price": "49 €",
+          "period": "/an",
+          "badge": "",
+          "isTop": false,
+          "bullets": [
+            "Jusqu'à 2 chantiers actifs",
+            "Budget, factures & réserves",
+            "Export PDF illimité"
+          ],
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_chantier_solo",
+          "showOnCommande": true
+        },
+        {
+          "id": "chantier-pro",
+          "name": "Chantier Pro",
+          "price": "99 €",
+          "period": "/an",
+          "badge": "ARTISANS",
+          "isTop": true,
+          "bullets": [
+            "Chantiers illimités",
+            "Toutes fonctions & photos",
+            "Export PDF & CSV"
+          ],
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_chantier_pro",
+          "showOnCommande": true
+        }
+      ],
+      "faqs": [
+        {
+          "q": "L'application fonctionne-t-elle sans réseau sur un chantier ?",
+          "a": "Oui : toutes vos données, photos et factures sont enregistrées localement sur votre téléphone. Aucun accès internet n'est requis sur place."
+        },
+        {
+          "q": "Faut-il une carte bancaire pour l'essai de 15 jours ?",
+          "a": "Non. L'essai de 15 jours est complet et sans engagement."
+        }
+      ]
+    },
+    {
+      "id": "irivo-batiment",
+      "name": "IRIVO Bâtiment",
+      "slug": "irivo-batiment",
+      "status": "bientot",
+      "aidPrefix": "BT",
+      "iconKey": "",
+      "iconPath": "",
+      "iconEmoji": "🏢",
+      "shortDesc": "Multi-chantiers, réserves, planning Gantt. Pour PME, conducteurs de travaux, architectes.",
+      "heroSubtitle": "Pilotage multi-chantiers, planning Gantt interactif, suivi OPR / réserves par lot et situations de travaux pour PME, conducteurs de travaux et architectes.",
+      "apkDownloadUrl": "compteur.php?dl=4",
+      "apkFileName": "IRIVO-Batiment.apk",
+      "trialDays": 15,
+      "featuresTitle": "Le pilotage multi-chantiers professionnel",
+      "featuresSubtitle": "Conçu pour les conducteurs de travaux, architectes et PME du bâtiment.",
+      "features": [
+        {
+          "ico": "📅",
+          "title": "Planning Gantt",
+          "desc": "Planification visuelle des lots, jalons d'avancement, gestion des retards et recalage."
+        },
+        {
+          "ico": "🏢",
+          "title": "Multi-chantiers",
+          "desc": "Vue consolidée de toutes vos opérations en cours, budgets et alertes prioritaires."
+        },
+        {
+          "ico": "✅",
+          "title": "OPR & Levée de réserves",
+          "desc": "Pointage sur site par lot et par entreprise, diffusion des listes et validation des levées."
+        },
+        {
+          "ico": "💶",
+          "title": "Situations & Facturation",
+          "desc": "Validation des situations mensuelles, retenues de garantie et suivi financier par lot."
+        },
+        {
+          "ico": "📤",
+          "title": "Comptes-rendus PDF",
+          "desc": "Génération sur place des comptes-rendus de réunion de chantier avec photos."
+        },
+        {
+          "ico": "🔒",
+          "title": "Vos données chez vous",
+          "desc": "Stockage local sécurisé sur votre téléphone ou tablette, exports PDF et Excel/CSV."
+        }
+      ],
+      "plans": [
+        {
+          "id": "batiment-pro",
+          "name": "IRIVO Bâtiment Pro",
+          "price": "149 €",
+          "period": "/an",
+          "badge": "MULTI-CHANTIERS",
+          "isTop": true,
+          "bullets": [
+            "Chantiers & lots illimités",
+            "Planning Gantt & suivi OPR",
+            "Export PDF, Excel et CSV"
+          ],
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_batiment_pro",
+          "showOnCommande": true
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Peut-on exporter les comptes-rendus et plannings ?",
+          "a": "Oui : tous les rapports de réserves, comptes-rendus de chantier et plannings sont exportables en PDF et CSV/Excel."
+        },
+        {
+          "q": "Comment fonctionne la licence annuelle ?",
+          "a": "Après les 15 jours d'essai gratuit, l'abonnement annuel s'active automatiquement sur votre appareil dès le paiement Stripe."
+        }
+      ]
+    }
+  ]
+}
