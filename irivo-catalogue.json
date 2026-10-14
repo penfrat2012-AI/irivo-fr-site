@@ -192,93 +192,132 @@
       ]
     },
     {
-      "id": "irivo-chantier",
-      "name": "IRIVO Chantier",
-      "slug": "irivo-chantier",
-      "status": "bientot",
+      "id": "univoq-chantier",
+      "name": "UNIVOQ Chantier",
+      "slug": "univoq-chantier",
+      "status": "test",
       "aidPrefix": "CH",
       "iconKey": "",
       "iconPath": "",
       "iconEmoji": "🏗️",
       "shortDesc": "Gestion de chantier : budget, paiement des factures, réserves. Pour particuliers et artisans.",
-      "heroSubtitle": "Suivez votre chantier de A à Z : budget prévisionnel, avancement des devis, paiement des factures et levée des réserves avec photos sur votre téléphone.",
+      "heroSubtitle": "Planning tactile, budget tenu au centime, réserves photographiées, factures lues et payées : votre chantier de bout en bout, sur votre téléphone. 15 jours d'essai gratuit, sans carte bancaire.",
       "apkDownloadUrl": "compteur.php?dl=3",
-      "apkFileName": "IRIVO-Chantier.apk",
+      "apkFileName": "UNIVOQ-Chantier.apk",
       "trialDays": 15,
       "featuresTitle": "Votre chantier maîtrisé, sans dépassement",
       "featuresSubtitle": "Pour les particuliers en rénovation ou construction et les artisans.",
       "features": [
         {
           "ico": "📐",
-          "title": "Budget & Devis",
-          "desc": "Suivi poste par poste des devis signés, avenants et reste à engager en temps réel."
+          "title": "Planning Gantt tactile",
+          "desc": "Tâches, durées, avancement et intervenants : tout se règle au doigt, sans tableur. Un retard se voit avant qu'il ne coûte."
         },
         {
           "ico": "🧾",
-          "title": "Paiement des factures",
-          "desc": "Pointage des acomptes, situations de travaux et historique complet des règlements."
+          "title": "Budget et factures maîtrisés",
+          "desc": "Chaque facture entre dans l'entrepôt du chantier et s'impute sur sa ligne de budget. HT, TVA (un ou plusieurs taux) et TTC sont calculés et vérifiés au centime ; export comptable CSV."
         },
         {
           "ico": "📸",
-          "title": "Réserves & Photos",
-          "desc": "Relevé des réserves par pièce ou par lot avec photos annotées et suivi de levée."
+          "title": "Facture lue par photo ou PDF",
+          "desc": "Lecture sur le téléphone, hors connexion, par un moteur embarqué. Le formulaire n'est pré-rempli que par ce qui est réellement lu : aucune case inventée, montants contrôlés entre eux."
         },
         {
           "ico": "📑",
-          "title": "Procès-verbal PDF",
-          "desc": "Génération immédiate des comptes-rendus et listes de réserves en PDF prêts à envoyer."
+          "title": "Réserves photographiées, rapport PDF",
+          "desc": "Autant de photos que nécessaire (ensemble, détail, repère), puis le rapport part par mail, WhatsApp ou SMS. Une réserve se fige à l'envoi du rapport."
         },
         {
           "ico": "👷",
-          "title": "Carnet d'intervenants",
-          "desc": "Coordonnées des artisans, attestations décennales et suivi par corps d'état."
+          "title": "Intervenants et licence entreprise",
+          "desc": "Annuaire réutilisable des artisans et corps de métier. Licence accouplée au SIRET, vérifié au registre national, et vos documents sortent avec le filigrane de votre société."
         },
         {
           "ico": "🔒",
           "title": "Vos données chez vous",
-          "desc": "Fonctionne hors-ligne sur chantier. Tout est stocké sur votre téléphone, sans serveur."
+          "desc": "Tout est stocké sur votre téléphone, sans serveur : chantiers, photos, factures et documents. Rien n'est envoyé sur Internet, l'application fonctionne hors connexion."
         }
       ],
       "plans": [
         {
-          "id": "chantier-solo",
-          "name": "Chantier Solo",
-          "price": "49 €",
+          "id": "univoq-chantier-eco",
+          "name": "Éco",
+          "price": "29,90 €",
           "period": "/an",
-          "badge": "",
+          "badge": "LE PLUS ACCESSIBLE",
           "isTop": false,
           "bullets": [
-            "Jusqu'à 2 chantiers actifs",
-            "Budget, factures & réserves",
-            "Export PDF illimité"
+            "1 chantier mené à la fois",
+            "Budget, planning Gantt & réserves",
+            "Import de factures + entrepôt du chantier",
+            "Virements préparés illimités (gratuits)",
+            "Mises à jour incluses"
           ],
-          "stripeUrl": "https://buy.stripe.com/remplacer_lien_chantier_solo",
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_univoq_eco",
           "showOnCommande": true
         },
         {
-          "id": "chantier-pro",
-          "name": "Chantier Pro",
-          "price": "99 €",
+          "id": "univoq-chantier-artisan-eco",
+          "name": "Artisan Éco",
+          "price": "199 €",
           "period": "/an",
-          "badge": "ARTISANS",
+          "badge": "LE PLUS CHOISI",
           "isTop": true,
           "bullets": [
-            "Chantiers illimités",
-            "Toutes fonctions & photos",
-            "Export PDF & CSV"
+            "4 chantiers en parallèle",
+            "Intervenants illimités",
+            "Rapports de réserves illimités",
+            "10 virements lancés depuis l'appli / mois",
+            "Export comptable CSV & rappels d'échéance",
+            "Mises à jour incluses"
           ],
-          "stripeUrl": "https://buy.stripe.com/remplacer_lien_chantier_pro",
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_univoq_artisan_eco",
+          "showOnCommande": true
+        },
+        {
+          "id": "univoq-chantier-artisan-full",
+          "name": "Artisan Full",
+          "price": "399 €",
+          "period": "/an",
+          "badge": "SANS RESTRICTION",
+          "isTop": false,
+          "bullets": [
+            "Chantiers illimités",
+            "Virements lancés depuis l'appli illimités",
+            "Collaborateurs (plusieurs appareils, un seul code)",
+            "Modèles de chantier réutilisables",
+            "Export PDF complet & archivage CSV",
+            "Support prioritaire"
+          ],
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_univoq_artisan_full",
           "showOnCommande": true
         }
       ],
       "faqs": [
         {
           "q": "L'application fonctionne-t-elle sans réseau sur un chantier ?",
-          "a": "Oui : toutes vos données, photos et factures sont enregistrées localement sur votre téléphone. Aucun accès internet n'est requis sur place."
+          "a": "Oui, pour l'essentiel : chantiers, planning, budget, réserves et lecture des factures fonctionnent hors connexion, car tout est enregistré sur votre téléphone — le scanner de texte est embarqué dans l'application. Seuls la vérification du SIRET au registre national et le virement lancé depuis l'appli demandent une connexion."
         },
         {
-          "q": "Faut-il une carte bancaire pour l'essai de 15 jours ?",
-          "a": "Non. L'essai de 15 jours est complet et sans engagement."
+          "q": "Mes données partent-elles sur un serveur ?",
+          "a": "Non. Vos chantiers, photos, factures et documents restent dans la base de l'application, sur votre appareil. Rien n'est téléversé, et la lecture d'une facture ne quitte jamais le téléphone."
+        },
+        {
+          "q": "Comment se passe l'essai gratuit de 15 jours ?",
+          "a": "Il démarre à la première ouverture, sans carte bancaire. L'écran Abonnement affiche les jours restants et un rappel apparaît à 5 jours de la fin. À la fin de l'essai, tout ce que vous avez saisi reste consultable et exportable : l'abonnement est demandé pour continuer à créer."
+        },
+        {
+          "q": "Comment régler mes factures depuis l'application ?",
+          "a": "Deux voies, à vous de choisir — et la gratuité est le défaut. Le virement préparé est gratuit et illimité : l'application fabrique un QR code SEPA que vous scannez avec l'application de votre banque (ou vous copiez l'IBAN, ou vous réglez plusieurs factures d'un coup avec un fichier SEPA). La seconde voie, le virement lancé depuis l'appli, passe par un prestataire bancaire agréé : elle est payante et désactivée par défaut."
+        },
+        {
+          "q": "Le scanner lit-il toutes les factures ?",
+          "a": "Non, et nous le disons : la lecture d'une photo reste approximative. L'application ne remplit une case que si le document le dit vraiment, et elle vérifie systématiquement les montants (HT + TVA = TTC) avant l'enregistrement : un chiffre mal lu est signalé, jamais recopié en silence."
+        },
+        {
+          "q": "Comment s'abonner et rattacher la licence à mon téléphone ?",
+          "a": "Depuis l'écran Abonnement : le bouton « S'abonner » ouvre la page de commande dans le navigateur de votre téléphone, avec l'identifiant de cet appareil (CH- suivi de 16 caractères hexadécimaux, par exemple CH-4F8A9C2E1B7D0563). C'est cet identifiant qui rattache l'abonnement à votre téléphone."
         }
       ]
     },
