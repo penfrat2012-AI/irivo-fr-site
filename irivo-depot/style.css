@@ -1,0 +1,57 @@
+:root{--bleu:#0277bd;--bleu-fonce:#01579b;--vert:#2e7d32;--fond:#f5f9fc;--texte:#263238;--gris:#78909c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Roboto,Arial,sans-serif;color:var(--texte);background:#fff;line-height:1.6}
+.wrap{max-width:1000px;margin:0 auto;padding:0 18px}
+header{background:linear-gradient(135deg,var(--bleu-fonce),var(--bleu));color:#fff;padding:56px 0 64px;text-align:center}
+header .logo{font-size:20px;opacity:.9;letter-spacing:2px}
+header h1{font-size:46px;margin:10px 0 6px}
+header p.accroche{font-size:19px;opacity:.95;max-width:640px;margin:0 auto 26px}
+.btn{display:inline-block;background:var(--vert);color:#fff!important;text-decoration:none;font-weight:bold;padding:14px 30px;border-radius:30px;margin:6px;font-size:17px}
+.btn.second{background:#fff;color:var(--bleu-fonce)!important;border:2px solid #fff}
+.btn.sombre{background:var(--bleu-fonce)}
+section{padding:46px 0}
+section.gris{background:var(--fond)}
+h2{text-align:center;font-size:30px;margin-bottom:8px;color:var(--bleu-fonce)}
+p.sous{text-align:center;color:var(--gris);margin-bottom:30px}
+.grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.carte{background:#fff;border-radius:14px;padding:22px;box-shadow:0 2px 10px rgba(1,87,155,.1);text-align:center}
+.carte .ico{font-size:38px}
+.carte h3{margin:10px 0 6px;font-size:18px;color:var(--bleu-fonce)}
+.carte p{font-size:14px;color:#546e7a}
+.tarifs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;align-items:stretch}
+.tarif{background:#fff;border:2px solid #e1f5fe;border-radius:14px;padding:28px 22px;text-align:center;position:relative}
+.tarif.top{border-color:var(--vert);box-shadow:0 4px 18px rgba(46,125,50,.2)}
+.tarif .etiquette{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--vert);color:#fff;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:12px;white-space:nowrap}
+.tarif h3{color:var(--bleu-fonce);font-size:20px}
+.tarif .prix{font-size:38px;font-weight:bold;margin:10px 0 2px}
+.tarif .prix span{font-size:15px;color:var(--gris);font-weight:normal}
+.tarif ul{list-style:none;margin:16px 0;font-size:14px}
+.tarif li{padding:5px 0}
+.faq details{background:#fff;border-radius:10px;padding:14px 18px;margin-bottom:10px;box-shadow:0 1px 5px rgba(1,87,155,.08)}
+.faq summary{font-weight:bold;cursor:pointer;color:var(--bleu-fonce)}
+footer{background:var(--bleu-fonce);color:#fff;padding:30px 0;text-align:center;font-size:14px}
+footer a{color:#b3e5fc;margin:0 10px;text-decoration:none}
+footer a:hover{text-decoration:underline}
+.legal{max-width:800px;margin:0 auto;padding:36px 18px}
+.legal h1{color:var(--bleu-fonce);margin-bottom:6px}
+.legal h2{text-align:left;font-size:21px;margin:26px 0 8px}
+.legal p,.legal li{margin-bottom:8px}
+.legal .maj{color:var(--gris);font-size:14px}
+.badge-play{display:inline-block;border:2px solid #fff;border-radius:10px;padding:10px 22px;margin-top:14px;font-size:15px;opacity:.95}
+@media(max-width:600px){header h1{font-size:34px}.tarif .prix{font-size:32px}}
+
+.badge-logo{background:#fff;border-radius:14px;padding:10px 22px;display:inline-block;margin-bottom:14px}
+.badge-logo img{height:56px;display:block}
+.badge-logo.mini{padding:6px 14px}.badge-logo.mini img{height:38px}
+.app-ico{height:60px;vertical-align:-13px;border-radius:14px;margin-right:8px}
+
+.anim{animation:fondu .8s ease both}
+@keyframes fondu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.carte-app{transition:transform .25s,box-shadow .25s}
+.carte-app:hover{transform:translateY(-6px);box-shadow:0 10px 24px rgba(1,87,155,.2)}
+.carte-app.futur{border:2px dashed #b0bec5}
+.app-ico-xl{width:76px;height:76px;border-radius:18px}
+.badge-dispo{display:inline-block;background:#E8F5E9;color:#2E7D32;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
+.badge-soon{display:inline-block;background:#FFF3E0;color:#E65100;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
+.badge-test{display:inline-block;background:#E1F0F9;color:#01579B;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
+nav a:hover{text-decoration:underline}
