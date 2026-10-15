@@ -70,7 +70,8 @@ Ordre conseillé : `style.css` et les images d'abord, puis les pages HTML, puis 
 
 - Accueil : la 3e carte affiche **UNIVOQ Chantier** avec la pastille bleue **En Test** et un bouton **Découvrir**
 - `univoq-chantier.html` : page complète (planning Gantt, réserves, tarifs Éco / Artisan Éco / Artisan Full, FAQ)
-- `commande.html` : 6 liens de paiement + l'encadré « Votre identifiant appareil » qui n'apparaît que
-  si l'on arrive avec `?aid=` (par exemple `commande.html?aid=CH-0123456789ABCDEF`)
+- `commande.html` : 9 liens de paiement (dont les 3 offres UNIVOQ Chantier) + l'encadré
+  « Votre identifiant appareil » qui n'apparaît que si l'on arrive avec `?aid=` (par exemple
+  `commande.html?aid=CH-0123456789ABCDEF`)
 - Les vidéos de `bailliko.html` et `patrimoine-pilote.html` fonctionnent toujours
 - Les téléchargements d'APK fonctionnent toujours (`compteur.php?dl=1` … `dl=4`)

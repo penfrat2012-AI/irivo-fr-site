@@ -17,7 +17,7 @@ les espaces de travail.
 | `patrimoine-pilote.html` | Page produit Patrimoine Pilote (Solo 59 €, Pack IRIVO 89 €, Duo Pro 139 €) |
 | `univoq-chantier.html` | Page produit UNIVOQ Chantier (Éco / Artisan Éco / Artisan Full) |
 | `irivo-batiment.html` | Page produit IRIVO Bâtiment (à venir) |
-| `commande.html` | Paiement Stripe : 6 liens + espace client + **activation automatique `?aid=`** |
+| `commande.html` | Paiement Stripe : 9 liens + espace client + **activation automatique `?aid=`** |
 | `style.css` | Feuille de style officielle |
 | `guide-revision-irl.html`, `mentions-legales.html`, `cgv.html`, `confidentialite.html` | Pages légales et guide |
 | `logo-irivo.png`, `icone-patrimoine-pilote.png`, `bailliko/icone-bailliko.png`, `ecran-*.png` | Images du site |
@@ -61,5 +61,5 @@ active la licence de l'appareil. Préfixes gérés :
 - `irivo-catalogue.json` ne connaît pas encore les 2 produits apparus sur le site :
   **Patrimoine Pilote 59 €/an** (`buy.stripe.com/4gMeVdc1D3yl0Bp3Uc2Nq03`) et
   **Duo Pro 139 €/an** (`buy.stripe.com/dRm3cv9Tvb0N6ZN62k2Nq05`).
-- Les liens Stripe d'UNIVOQ Chantier et d'IRIVO Bâtiment sont encore des marqueurs
-  (`remplacer_lien_...`) : ces applications ne sont pas encore vendables.
+- Les liens Stripe d'UNIVOQ Chantier sont désormais réels (Solo 29,90 €, Artisan Éco 99,90 €,
+  Artisan Full 299,90 €) ; ceux d'IRIVO Bâtiment restent des marqueurs (`remplacer_lien_...`).

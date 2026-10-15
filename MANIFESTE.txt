@@ -4,27 +4,27 @@ Envoi : depuis la console IRIVO -> bouton 'Etape 3 : Envoyer les VRAIS fichiers 
 
 fichier                                     taille  sha256
 --------------------------------------------------------------------------------------------------------------
-DEPLOIEMENT-OVH.md                            3805  6967998f35bb631186ff032de99a146847cb22a4b0c4de12090ad70effb70b74
-README.md                                     3805  0a512f6e5a74eaa3126dcc30aa02123542f6ad8847e28a7299ba3c96aaecca6e
-bailliko.html                               368685  7cdea1ba97754e12e901c29cc7b3c054170c7a2d152b0ac1fef8313ad640ca21
-bailliko/icone-bailliko.png                  10365  725764fa3d5e197fddd3071b74f21623f7103813b68fdc2a6dc1c7c3ef7863e4
-cgv.html                                      6294  e31586dd9222e85a1dbdbe31bea4cd585116aeecf0baafccc99de83f8d605722
-commande.html                                 5775  f5006e47219763d64a8180958285e853a7464b52fd2b0097310e91f811b3dda2
-confidentialite.html                          4169  c3e975153d4a55679bcb01a8ef70521c6a9d5d0b04920321820596aa450b29c0
-ecran-ifi.png                               196911  9d40ac191a2fe321c10c891c36054fd083732c3ce3bfa544d08e3fd057a886c1
-ecran-import-bailliko.png                   185506  a7c1a49e87eca315ffc1199efec9a200fc21fd782f3b62175e2d9e5de745e17c
-ecran-patrimoine.png                        144805  d2fdb9f21d569eb5da94d4ac01d8359cc0309264c24b1d24d752f0a15d0801b8
-ecran-simulateur.png                        171883  f957b9f2ab4d68c8e8364fa667ccfcc1107fad16c6d7bea2270e7ecc5de39c19
-guide-revision-irl.html                       3548  1954171f077d6f35c7cef4e28e4136725a13d1e3ff78242e63331bf7ed0c1c87
-icone-patrimoine-pilote.png                  12242  263a085a3cfab4f88c04e730e3c3a0f8949c4e103098529244f07c2f3914ad7c
-index.html                                    2907  ae3fbe761f17c7eaf88d4a6dca5c973da2ee5b91887ba12242ebd344570e0527
-irivo-batiment.html                           5647  8102e59e32ac2cdb80581d62ec0476eaae72621f9219cf97754682b8341837ce
-irivo-catalogue.json                         18021  a1b3d661459ba6a3ac3bbabfa893920fa65358512a914d7a787211e87e2034df
-logo-irivo.png                               86841  83b1e43d4589b0313300ad82633c68f589d872c27bf8de67da5abf61ccb60812
-mentions-legales.html                         1988  82e707dbfa95a7d194007d84e33518aee95b87e1d77b287bfc6dea04a73808e1
-patrimoine-pilote.html                       11778  598d5301081abbffc9419d4150b1ca7aabeff1558b5e4caa0b46db540454d99f
-style.css                                     4197  659f13ea5c51dbdce44bcce60e3922ea280d9aaa808f1fbcb880a36b57bbb8d4
-univoq-chantier.html                          9513  0aa5caaa07f68bc7d4ca97698e496af709f178507684e9effcd5bef85cae8eaa
+DEPLOIEMENT-OVH.md                              3843  5ba0ea8e303b9a1709981c773226639e7f71fb9213d856595436e2e8123b9912
+README.md                                       3846  238842b1588a0ab4289229957c5939aeb4fccbc533ce18c17edaef44e7734309
+bailliko.html                                 368685  7cdea1ba97754e12e901c29cc7b3c054170c7a2d152b0ac1fef8313ad640ca21
+bailliko/icone-bailliko.png                    10365  725764fa3d5e197fddd3071b74f21623f7103813b68fdc2a6dc1c7c3ef7863e4
+cgv.html                                        6294  e31586dd9222e85a1dbdbe31bea4cd585116aeecf0baafccc99de83f8d605722
+commande.html                                   8130  8ecbcbb272f54bc90ac255a2b0336b4400a443b97b252396926edda9a4fa04d3
+confidentialite.html                            4169  c3e975153d4a55679bcb01a8ef70521c6a9d5d0b04920321820596aa450b29c0
+ecran-ifi.png                                 196911  9d40ac191a2fe321c10c891c36054fd083732c3ce3bfa544d08e3fd057a886c1
+ecran-import-bailliko.png                     185506  a7c1a49e87eca315ffc1199efec9a200fc21fd782f3b62175e2d9e5de745e17c
+ecran-patrimoine.png                          144805  d2fdb9f21d569eb5da94d4ac01d8359cc0309264c24b1d24d752f0a15d0801b8
+ecran-simulateur.png                          171883  f957b9f2ab4d68c8e8364fa667ccfcc1107fad16c6d7bea2270e7ecc5de39c19
+guide-revision-irl.html                         3548  1954171f077d6f35c7cef4e28e4136725a13d1e3ff78242e63331bf7ed0c1c87
+icone-patrimoine-pilote.png                    12242  263a085a3cfab4f88c04e730e3c3a0f8949c4e103098529244f07c2f3914ad7c
+index.html                                      2907  ae3fbe761f17c7eaf88d4a6dca5c973da2ee5b91887ba12242ebd344570e0527
+irivo-batiment.html                             5647  8102e59e32ac2cdb80581d62ec0476eaae72621f9219cf97754682b8341837ce
+irivo-catalogue.json                           18080  c8dea3a46ad9444a5657a467c7a7096881f59e7e4dfc1d58c713a28a7e25d1d2
+logo-irivo.png                                 86841  83b1e43d4589b0313300ad82633c68f589d872c27bf8de67da5abf61ccb60812
+mentions-legales.html                           1988  82e707dbfa95a7d194007d84e33518aee95b87e1d77b287bfc6dea04a73808e1
+patrimoine-pilote.html                         11778  598d5301081abbffc9419d4150b1ca7aabeff1558b5e4caa0b46db540454d99f
+style.css                                       4197  659f13ea5c51dbdce44bcce60e3922ea280d9aaa808f1fbcb880a36b57bbb8d4
+univoq-chantier.html                            9948  e6d18cfcc0b7a02edbc22376a9a301b7117cc58a3e4396b2431d08e0c8dd61dd
 
 FICHIERS PRESENTS SUR LE SERVEUR (irivo.fr) ET VOLONTAIREMENT ABSENTS DU DEPOT :
   compteur.php                     (compteur + redirection des telechargements APK)
@@ -34,3 +34,7 @@ FICHIERS PRESENTS SUR LE SERVEUR (irivo.fr) ET VOLONTAIREMENT ABSENTS DU DEPOT :
 
 ATTENTION : le compteur compteur.php sert Bailliko.apk pour dl=3 et dl=4
 (valeurs non prevues). Le bouton APK d'univoq-chantier.html a donc ete neutralise.
+univoq-chantier/icone-univoq-chantier.png     237938  184c3bbdc7fde337043edeba278a0f518dade30e99d652eabf4ba85e6956fd0f
+univoq/icone-univoq-artisan-eco.png           131465  3475bd8f02b97f0dd49cc8e5dad3819cece48d79276b340482179d9e25812917
+univoq/icone-univoq-artisan-full.png          127816  c478427a2ededfcd7d171f4f0c5cbf3fbb56eba91f4d31da110d992debfd7385
+univoq/icone-univoq-solo.png                  131780  cfd5d965c0186e5a6cf63a6ddad6e8571c9809a7c785dad1f0ec34cbee3d0d77
