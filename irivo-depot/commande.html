@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commander — IRIVO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="legal">
+<p><a href="bailliko.html">← Retour</a></p>
+<h1>Commander votre licence IRIVO</h1>
+<p class="maj">Abonnement annuel renouvelé automatiquement, résiliable à tout moment. Paiement sécurisé par carte bancaire via Stripe.</p>
+
+<p>📲 <strong>Pas encore l'application ?</strong> <a href="Bailliko.apk" download>Téléchargez Bailliko pour Android</a> (autorisez l'installation depuis le navigateur quand Android le demande).</p>
+<div id="aidBox" hidden style="border:1px solid #cfd8c9;border-radius:14px;background:#f5f9ef;padding:16px 18px;margin:18px 0">
+<h3 style="margin:0 0 6px">Votre identifiant appareil</h3>
+<p><strong id="aidValue" style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace"></strong></p>
+<p style="font-size:13px;color:#546e7a;margin:6px 0 0">Il est déjà transmis à Stripe avec votre paiement. Il ne sert qu’à activer la licence sur cet appareil : aucun bien, aucun montant, aucune donnée personnelle n’est envoyé.</p>
+</div>
+<h2>Comment ça marche</h2>
+<p><strong>1.</strong> Choisissez votre formule et payez par carte bancaire (page sécurisée Stripe) — abonnement annuel.<br>
+<strong>2.</strong> Depuis l’application, votre <strong>identifiant appareil</strong> est transmis automatiquement à Stripe : rien à recopier. Depuis un ordinateur, indiquez-le à la main dans le formulaire de paiement (vous le trouvez dans <em>Paramètres → Abonnement → Identifiant de cet appareil</em>).<br>
+<strong>3.</strong> Rouvrez l'application : votre licence <strong>s'active automatiquement</strong>.</p>
+<p>Résiliable à tout moment depuis votre <a href="https://billing.stripe.com/p/login/6oU28rd5H0m96ZN2Q82Nq00">espace client</a> — accès conservé jusqu'à la fin de la période payée.</p>
+
+<h2>Bailliko — gestion locative</h2>
+<div class="tarifs">
+<div class="tarif"><h3>Solo</h3><div class="prix">59 €<span> /an</span></div><ul><li>✅ Jusqu'à 3 biens</li><li>✅ Toutes fonctions</li><li>✅ Mises à jour incluses</li></ul><a class="btn" href="https://buy.stripe.com/6oUdR93v70m983R0I02Nq01">Payer 59 €</a></div>
+<div class="tarif top"><div class="etiquette">ILLIMITÉ</div><h3>Pro</h3><div class="prix">119 €<span> /an</span></div><ul><li>✅ Biens illimités</li><li>✅ Toutes fonctions</li><li>✅ Export Excel/CSV</li></ul><a class="btn" href="https://buy.stripe.com/5kQ8wPd5H0m96ZN2Q82Nq02">Payer 119 €</a></div>
+</div>
+
+<h2>Patrimoine Pilote — simulation immo &amp; IFI</h2>
+<div class="tarifs">
+<div class="tarif"><h3>Patrimoine Pilote</h3><div class="prix">59 €<span> /an</span></div><ul><li>✅ Simulation d'achat complète</li><li>✅ Fiscalité + repère IFI</li><li>✅ Mises à jour incluses</li></ul><a class="btn" href="https://buy.stripe.com/4gMeVdc1D3yl0Bp3Uc2Nq03">Payer 59 €</a></div>
+<div class="tarif top"><div class="etiquette">2 APPLIS</div><h3>Pack IRIVO</h3><div class="prix">89 €<span> /an</span></div><ul><li>✅ Bailliko + Patrimoine Pilote</li><li>✅ Toutes fonctions</li><li>✅ Mises à jour incluses</li></ul><a class="btn" href="https://buy.stripe.com/8x2cN5c1Dc4R5VJeyQ2Nq04">Payer 89 €</a></div>
+<div class="tarif"><h3>Duo Pro</h3><div class="prix">139 €<span> /an</span></div><ul><li>✅ Bailliko Pro + Patrimoine Pilote</li><li>✅ Biens illimités + export</li><li>✅ Mises à jour incluses</li></ul><a class="btn" href="https://buy.stripe.com/dRm3cv9Tvb0N6ZN62k2Nq05">Payer 139 €</a></div>
+</div>
+
+<h2>Paiement sécurisé</h2>
+<p>Le paiement est traité par <strong>Stripe</strong>, leader mondial du paiement en ligne. IRIVO ne voit ni ne stocke vos coordonnées bancaires. Facture envoyée par email après paiement.</p>
+
+<h2>Une question ?</h2>
+<p>Écrivez-nous à <a href="mailto:contact@irivo.fr">contact@irivo.fr</a>, réponse sous 48 h ouvrées. Voir aussi nos <a href="cgv.html">CGV</a>.</p>
+</div>
+<p style="text-align:center;margin:18px 0;">
+<a href="https://www.instagram.com/irivo2026/" target="_blank" rel="noopener" style="display:inline-block;background:linear-gradient(45deg,#f09433,#dc2743,#bc1888);color:#fff;font-weight:bold;text-decoration:none;padding:12px 26px;border-radius:30px;margin:6px;">📷 Suivez-nous sur Instagram</a>
+<a href="https://www.facebook.com/profile.php?id=61595335291716" target="_blank" rel="noopener" style="display:inline-block;background:#1877f2;color:#fff;font-weight:bold;text-decoration:none;padding:12px 26px;border-radius:30px;margin:6px;">📘 Suivez-nous sur Facebook</a>
+</p>
+
+<!-- Activation automatique de la licence. L'application ouvre cette page avec ?aid=XX-XXXXXXXXXXXXXXXX
+     (BK = Bailliko, PP = Patrimoine Pilote, CH = UNIVOQ Chantier, BT = IRIVO Bâtiment).
+     L'identifiant est transmis à Stripe (client_reference_id) : Stripe le renvoie au webhook du site,
+     qui active alors la licence de cet appareil, sans aucune saisie manuelle. -->
+<script>
+(function () {
+  var m = /(BK|PP|CH|BT)-([0-9A-F]{16})/i.exec(location.search);
+  if (!m) return;
+  var aid = (m[1] + '-' + m[2]).toUpperCase();
+  var box = document.getElementById('aidBox');
+  if (box) { box.hidden = false; var v = document.getElementById('aidValue'); if (v) v.textContent = aid; }
+  var links = document.querySelectorAll('a[href^="https://buy.stripe.com/"]');
+  for (var i = 0; i < links.length; i++) {
+    var h = links[i].getAttribute('href');
+    if (h.indexOf('client_reference_id') >= 0) continue;
+    links[i].setAttribute('href', h + (h.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(aid));
+  }
+})();
+</script>
+</body>
+</html>
