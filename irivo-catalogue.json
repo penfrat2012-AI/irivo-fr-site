@@ -241,8 +241,8 @@
       ],
       "plans": [
         {
-          "id": "univoq-chantier-solo",
-          "name": "Solo",
+          "id": "univoq-chantier-eco",
+          "name": "Éco",
           "price": "29,90 €",
           "period": "/an",
           "badge": "LE PLUS ACCESSIBLE",
@@ -254,13 +254,13 @@
             "Virements préparés illimités (gratuits)",
             "Mises à jour incluses"
           ],
-          "stripeUrl": "https://buy.stripe.com/remplacer_lien_univoq_solo",
+          "stripeUrl": "https://buy.stripe.com/remplacer_lien_univoq_eco",
           "showOnCommande": true
         },
         {
           "id": "univoq-chantier-artisan-eco",
           "name": "Artisan Éco",
-          "price": "99,90 €",
+          "price": "199 €",
           "period": "/an",
           "badge": "LE PLUS CHOISI",
           "isTop": true,
@@ -268,7 +268,7 @@
             "4 chantiers en parallèle",
             "Intervenants illimités",
             "Rapports de réserves illimités",
-            "Virements préparés illimités (gratuits)",
+            "10 virements lancés depuis l'appli / mois — virements préparés illimités",
             "Export comptable CSV & rappels d'échéance",
             "Mises à jour incluses"
           ],
@@ -278,7 +278,7 @@
         {
           "id": "univoq-chantier-artisan-full",
           "name": "Artisan Full",
-          "price": "299,90 €",
+          "price": "399 €",
           "period": "/an",
           "badge": "SANS RESTRICTION",
           "isTop": false,
