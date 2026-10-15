@@ -235,6 +235,13 @@
       "apkDownloadUrl": "compteur.php?dl=3",
       "apkFileName": "UNIVOQ-Chantier.apk",
       "trialDays": 15,
+      "video": {
+        "src": "UNIVOQ%20chantier/univoq-chantier-instagram-voix.mp4",
+        "titre": "🎬 Voir UNIVOQ Chantier en action",
+        "texte": "Une minute pour faire le tour : planning, budget, factures et réserves.",
+        "poster": "univoq-chantier-affiche.jpg",
+        "maxWidth": 380
+      },
       "featuresTitle": "Votre chantier maîtrisé, sans dépassement",
       "featuresSubtitle": "Pour les particuliers en rénovation ou construction et les artisans.",
       "features": [
