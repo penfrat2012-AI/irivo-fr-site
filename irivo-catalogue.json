@@ -161,6 +161,21 @@
       ],
       "plans": [
         {
+          "id": "patrimoine-pilote-solo",
+          "name": "Solo",
+          "price": "59 €",
+          "period": "/an",
+          "badge": "",
+          "isTop": false,
+          "bullets": [
+            "Simulation d'achat complète",
+            "Fiscalité + repère IFI",
+            "Mises à jour incluses"
+          ],
+          "stripeUrl": "https://buy.stripe.com/4gMeVdc1D3yl0Bp3Uc2Nq03",
+          "showOnCommande": true
+        },
+        {
           "id": "pack-irivo",
           "name": "Pack IRIVO (Bailliko + Patrimoine Pilote)",
           "price": "89 €",
@@ -173,6 +188,21 @@
             "Mises à jour incluses"
           ],
           "stripeUrl": "https://buy.stripe.com/8x2cN5c1Dc4R5VJeyQ2Nq04",
+          "showOnCommande": true
+        },
+        {
+          "id": "duo-pro",
+          "name": "Duo Pro",
+          "price": "139 €",
+          "period": "/an",
+          "badge": "LE MIEUX ÉQUIPÉ",
+          "isTop": true,
+          "bullets": [
+            "Bailliko Pro + Patrimoine Pilote",
+            "Biens illimités + export",
+            "Mises à jour incluses"
+          ],
+          "stripeUrl": "https://buy.stripe.com/dRm3cv9Tvb0N6ZN62k2Nq05",
           "showOnCommande": true
         }
       ],
@@ -202,7 +232,7 @@
       "iconEmoji": "🏗️",
       "shortDesc": "Gestion de chantier : budget, paiement des factures, réserves. Pour particuliers et artisans.",
       "heroSubtitle": "Planning tactile, budget tenu au centime, réserves photographiées, factures lues et payées : votre chantier de bout en bout, sur votre téléphone. 15 jours d'essai gratuit, sans carte bancaire.",
-      "apkDownloadUrl": "UNIVOQ-Chantier.apk",
+      "apkDownloadUrl": "compteur.php?dl=3",
       "apkFileName": "UNIVOQ-Chantier.apk",
       "trialDays": 15,
       "featuresTitle": "Votre chantier maîtrisé, sans dépassement",
@@ -260,7 +290,7 @@
         {
           "id": "univoq-chantier-artisan-eco",
           "name": "Artisan Éco",
-          "price": "99,90 €",
+          "price": "199,90 €",
           "period": "/an",
           "badge": "LE PLUS CHOISI",
           "isTop": true,
@@ -332,7 +362,7 @@
       "iconEmoji": "🏢",
       "shortDesc": "Multi-chantiers, réserves, planning Gantt. Pour PME, conducteurs de travaux, architectes.",
       "heroSubtitle": "Pilotage multi-chantiers, planning Gantt interactif, suivi OPR / réserves par lot et situations de travaux pour PME, conducteurs de travaux et architectes.",
-      "apkDownloadUrl": "",
+      "apkDownloadUrl": "compteur.php?dl=4",
       "apkFileName": "IRIVO-Batiment.apk",
       "trialDays": 15,
       "featuresTitle": "Le pilotage multi-chantiers professionnel",
