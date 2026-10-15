@@ -31,7 +31,8 @@ Ils restent **uniquement sur le serveur** (trop lourds, et ils ne doivent jamais
 supprimés par un déploiement) :
 
 - `compteur.php` — compteur de téléchargements
-- `Bailliko.apk`, `Patrimoine-Pilote.apk`, `UNIVOQ-Chantier.apk`, `IRIVO-Batiment.apk`
+- `Bailliko.apk`, `Patrimoine-Pilote.apk`, `IRIVO-Batiment.apk`
+  (`UNIVOQ-Chantier.apk` est désormais dans le dépôt : le déploiement le porte sur le serveur)
 - `bailliko/presentation BAILLIKO site.mp4`, `bailliko/video-bailliko-ecrans.mp4`
 - `patrimoine-pilote-presentation.mp4`
 

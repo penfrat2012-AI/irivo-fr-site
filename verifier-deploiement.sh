@@ -8,6 +8,7 @@ echo "-----------------------------------------------------"
 cat <<'EOF' > /tmp/.irivo_ref
 5ba0ea8e303b9a1709981c773226639e7f71fb9213d856595436e2e8123b9912  DEPLOIEMENT-OVH.md
 238842b1588a0ab4289229957c5939aeb4fccbc533ce18c17edaef44e7734309  README.md
+1d75656e26feee7549e050be3edce9d884f1e67bd60d88fe2a47e8100b4f061d  UNIVOQ-Chantier.apk
 7cdea1ba97754e12e901c29cc7b3c054170c7a2d152b0ac1fef8313ad640ca21  bailliko.html
 725764fa3d5e197fddd3071b74f21623f7103813b68fdc2a6dc1c7c3ef7863e4  bailliko/icone-bailliko.png
 e31586dd9222e85a1dbdbe31bea4cd585116aeecf0baafccc99de83f8d605722  cgv.html
