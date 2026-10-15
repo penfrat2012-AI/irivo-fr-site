@@ -6,7 +6,7 @@ header{background:linear-gradient(135deg,var(--bleu-fonce),var(--bleu));color:#f
 header .logo{font-size:20px;opacity:.9;letter-spacing:2px}
 header h1{font-size:46px;margin:10px 0 6px}
 header p.accroche{font-size:19px;opacity:.95;max-width:640px;margin:0 auto 26px}
-.btn{display:inline-block;background:var(--vert);color:#fff!important;text-decoration:none;font-weight:bold;padding:14px 30px;border-radius:30px;margin:6px;font-size:17px;cursor:pointer}
+.btn{display:inline-block;background:var(--vert);color:#fff!important;text-decoration:none;font-weight:bold;padding:14px 30px;border-radius:30px;margin:6px;font-size:17px}
 .btn.second{background:#fff;color:var(--bleu-fonce)!important;border:2px solid #fff}
 .btn.sombre{background:var(--bleu-fonce)}
 section{padding:46px 0}
@@ -39,10 +39,12 @@ footer a:hover{text-decoration:underline}
 .legal .maj{color:var(--gris);font-size:14px}
 .badge-play{display:inline-block;border:2px solid #fff;border-radius:10px;padding:10px 22px;margin-top:14px;font-size:15px;opacity:.95}
 @media(max-width:600px){header h1{font-size:34px}.tarif .prix{font-size:32px}}
+
 .badge-logo{background:#fff;border-radius:14px;padding:10px 22px;display:inline-block;margin-bottom:14px}
 .badge-logo img{height:56px;display:block}
 .badge-logo.mini{padding:6px 14px}.badge-logo.mini img{height:38px}
 .app-ico{height:60px;vertical-align:-13px;border-radius:14px;margin-right:8px}
+
 .anim{animation:fondu .8s ease both}
 @keyframes fondu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 .carte-app{transition:transform .25s,box-shadow .25s}
@@ -51,4 +53,5 @@ footer a:hover{text-decoration:underline}
 .app-ico-xl{width:76px;height:76px;border-radius:18px}
 .badge-dispo{display:inline-block;background:#E8F5E9;color:#2E7D32;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
 .badge-soon{display:inline-block;background:#FFF3E0;color:#E65100;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
+.badge-test{display:inline-block;background:#E1F0F9;color:#01579B;font-size:12px;font-weight:bold;padding:3px 14px;border-radius:20px}
 nav a:hover{text-decoration:underline}
